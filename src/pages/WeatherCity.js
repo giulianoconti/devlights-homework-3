@@ -38,6 +38,7 @@ export const WeatherCity = () => {
         <div className="grid grid-cols-2 max-w-xl m-auto">
           <div className="p-4 flex justify-center items-center m-4 bg-rgba-0-0-0-01 rounded">
             <img
+              className="h-24"
               src={`http://openweathermap.org/img/wn/${dataCurrentWeather.weather[0].icon}@2x.png`}
               alt={dataCurrentWeather.weather[0].main}
             />
