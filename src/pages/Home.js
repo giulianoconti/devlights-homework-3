@@ -182,8 +182,8 @@ export const Home = () => {
                 </Link>
                 <img
                   className="w-5 cursor-pointer ml-2 h-5 self-center"
-                  src="favicon.ico"
-                  alt="weatherIcon"
+                  src="delete.png"
+                  alt="borrar ciudad"
                   onClick={() => deleteItem(city)}
                 />
               </div>
