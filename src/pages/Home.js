@@ -124,7 +124,11 @@ export const Home = () => {
   );
 
   const handleProvinceChange = ({ target: { value } }) => {
-    setInputCities(ciudades[value]);
+    if (value !== "Seleccionar una provincia") {
+      setInputCities(ciudades[value]);
+    } else {
+      setInputCities(["Seleccionar una localidad"]);
+    }
   };
 
   const handleCityChange = ({ target: { value } }) => {
@@ -203,7 +207,7 @@ export const Home = () => {
               className="mb-3 appearance-none w-full px-2 py-2 text-xl text-gray-700 border border-gray-300 rounded focus:outline-none cursor-pointer"
               onChange={handleProvinceChange}
             >
-              <option value="">Seleccionar una provincia</option>
+              <option value="Seleccionar una provincia">Seleccionar una provincia</option>
               <option value="Buenos Aires">Buenos Aires</option>
               <option value="Catamarca">Catamarca</option>
               <option value="Chaco">Chaco</option>
