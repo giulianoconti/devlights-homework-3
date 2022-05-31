@@ -44,7 +44,7 @@ export const WeatherCity = () => {
             />
           </div>
           <h5 className="p-4 flex justify-center items-center mx-4 text-5xl">
-            {Math.round(dataCurrentWeather.main.temp - 273.15)} &deg;C
+            {Math.round(dataCurrentWeather.main.temp - 273.15)}&deg;C
           </h5>
           <p className="p-4 flex justify-center items-center mx-4">
             {dataCurrentWeather.main.humidity}% Humedad
@@ -75,7 +75,7 @@ export const WeatherCity = () => {
                       src={`http://openweathermap.org/img/wn/${item.weather[0].icon}@2x.png`}
                       alt={item.weather[0].main}
                     />
-                    <p>{Math.round(item.main.temp - 273.15)}*</p>
+                    <p>{Math.round(item.main.temp - 273.15)}&deg;</p>
                   </div>
                 ))}
             </div>
