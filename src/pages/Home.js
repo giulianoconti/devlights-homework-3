@@ -132,7 +132,11 @@ export const Home = () => {
   };
 
   const handleAddCity = () => {
-    if (inputCitySelected !== "") {
+    if (
+      inputCitySelected !== "" &&
+      !weatherCities.includes(inputCitySelected) &&
+      inputCitySelected !== "Seleccionar una localidad"
+    ) {
       setWeatherCities([...weatherCities, inputCitySelected]);
       setError("");
     } else {
@@ -172,7 +176,11 @@ export const Home = () => {
               to={`/weather/${city.toLowerCase()}`}
             >
               <div className="bg-gray-300 rounded-full p-1 container flex">
-                <img className="w-5 mr-2 h-5 self-center" src="favicon.ico" alt="weatherIcon" />
+                <img
+                  className="w-5 mr-2 h-5 self-center"
+                  src="favicon.ico"
+                  alt="weatherIcon"
+                />
                 <Link
                   className="text-center text-sm font-bold m-auto w-full"
                   key={city}
