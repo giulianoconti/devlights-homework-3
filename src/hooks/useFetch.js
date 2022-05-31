@@ -19,10 +19,11 @@ export const useFetch = (url) => {
       })
       .then((data) => {
         setData(data);
-        setLoading(false);
       })
       .catch((error) => {
         setError(error);
+      })
+      .finally(() => {
         setLoading(false);
       });
   }, []);
