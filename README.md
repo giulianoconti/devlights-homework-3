@@ -16,6 +16,7 @@ Web application to obtain current weather information and several more days.
 ### Built With
 
 * [React](https://reactjs.org/)
+* [Tailwind](https://tailwindcss.com/)
 
 ### Link
 
