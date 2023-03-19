@@ -1,3 +1,22 @@
-<h1>Clima App - Devlights Bootcamp</h1>
+<p align="center">
+  <a href="https://www.linkedin.com/in/giulianoconti/"><img width="100" src="https://raw.githubusercontent.com/giulianoconti/api/main/svgs/linkedin.svg" alt="LinkedIn"></a>
+  <a href="https://github.com/giulianoconti"><img width="100" src="https://raw.githubusercontent.com/giulianoconti/api/main/svgs/github.svg" alt="GitHub"></a>
+  <a href="https://www.instagram.com/giulianocontii/"><img width="100" src="https://raw.githubusercontent.com/giulianoconti/api/main/svgs/instagram.svg" alt="Instagram"></a>
+  <a href="mailto:giuliconti1@gmail.com"><img width="100" src="https://raw.githubusercontent.com/giulianoconti/api/main/svgs/gmail.png" alt="Mail"></a>
+</p>
 
-https://clima-xi.vercel.app/
+## Weather
+
+### Weather App - Devlights Bootcamp
+
+![Weather](https://raw.githubusercontent.com/giulianoconti/api/main/imagesProjects/images_1920x1080/weather.webp?raw=true)
+
+Web application to obtain current weather information and several more days.
+
+### Built With
+
+* [React](https://reactjs.org/)
+
+### Link
+
+* https://clima-xi.vercel.app/
