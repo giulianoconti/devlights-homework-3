@@ -9,8 +9,6 @@
 
 ### Weather App - Devlights Bootcamp
 
-![Weather](https://raw.githubusercontent.com/giulianoconti/api/main/imagesProjects/images_1920x1080/weather.webp?raw=true)
-
 Web application to obtain current weather information and several more days.
 
 ### Built With
